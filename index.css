@@ -1,0 +1,394 @@
+body {
+    font-family: 'Rockinsoda';
+    
+}
+
+
+/* বেসিক স্টাইল */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+}
+
+.logo h1 {
+  color: #FF7A00;
+  width: 143px;
+  height: 68px;
+ font-family: 'Courier New', monospace;
+font-weight: 400px;
+text-transform: uppercase;
+font-size: 48px;
+}
+
+@keyframes fade-in {
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}
+}
+
+h1 span {
+animation: fade-in 1s;
+color: #202020;
+font-family: 'Times New Roman', serif;
+font-style: italic;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 10px;
+  
+}
+
+.menu li:last-child {
+  margin-right: 0px;
+  
+}
+
+.menu li a {
+  display: block;
+  color:#000000;
+  ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+/* রেসপন্সিভ স্টাইল */
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+  }
+
+
+
+  .menu li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.shop-icon {
+  color: #FFFFFF;
+}
+
+.shop-icon {
+  display: flex;
+  align-items: center;
+}
+
+.shop-icon i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff7a00;
+  width: 32px;
+  height: 32px;
+  font-size: 32px;
+  margin-right: 10px;
+  padding: 15px;
+  border-radius: 50%;
+
+}
+
+/*/****... ব্যানার*/
+.container {
+  background-color: #ffffff;
+        display: flex;
+        align-items: center;
+    }
+    .content {
+      flex: 1;
+      margin: 20px;
+      padding: 10px;
+  }
+  .content h1  {
+    font-size: 70px;
+  }
+
+  .content p {
+    font-style: italic; 
+    font-size: 30px;
+    font-weight: 400;
+  }
+    .image {
+       width: 786px;
+       height: 692px;
+        flex: 1;
+        text-align: right;
+        border-radius: 20px;
+        margin-right: 20px;
+        box-shadow: 10px 10px 10px 5px rgb(73, 71, 71);
+    }
+    .food{
+            color: #FF7A00;
+      
+    }
+   
+    button {
+      width: 198px;
+      height: 100px;
+        padding: 10px 20px;
+        background-color:#FF7A00 ;
+        color: white;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 36px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+    .image {
+        margin: 10px;
+        padding: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 50px;
+        
+        transition: transform 0.3s;
+    }    
+    .image:hover {
+        transform: scale(1.1);
+    }
+    
+  
+
+
+.contain {
+display: flex;
+align-items: center;
+justify-content: space-between;
+justify-items: center;
+background-color:#FF7A00 ;
+width: 100%;
+height: 345px;
+}
+
+
+
+
+@font-face {
+font-family: 'Poppins';
+font-weight: 700;
+src: url('path/to/poppins-bold.woff2') format('woff2'),
+   url('path/to/poppins-bold.woff') format('woff');
+}
+
+.paragraph {
+font-family: 'Poppins', sans-serif;
+font-weight: 700;
+font-size: 24px; /* আপনার পছন্দমত ফন্ট সাইজ সেট করুন */
+  width:469px ;
+  height:78px ;
+  font-size: 50px;
+  color: #ffffff;
+  margin-left:50px ;
+}
+#search-bar {
+padding: 10px;
+margin-left: 100px;
+width: 427px;
+height: 100px;
+border-radius: 50px;
+font-size: 50px;
+
+}
+
+#search-button {
+  
+width: 200px;
+height: auto;
+padding: 30px;
+
+justify-content:center;
+border-radius:50px;
+background-color: #000000;
+}
+
+.container2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  background-color:#ffffff;
+}
+.imgs{
+  width: 827px;
+  height:551px;
+  margin-left: 100px;
+  padding: 10px;
+}
+
+.fastDelivery h1{
+  width: 501px;
+  height: 100px;
+  font-size: 82px;
+  margin-right: 100px;
+  padding: 10px;
+  color: #FF7A00;
+ 
+}
+
+.fastDelivery p{
+  width: 639px;
+  height: 397px;
+  font-size: 45px;
+  margin-right: 100px;
+  
+}
+
+
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4c4c4;
+
+}
+
+.card-content {
+  text-align: center;
+  margin-top: 10px;
+  width: 1300px;
+  width: 387px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin: 0;
+  font-size: 50px;
+}
+
+.card-description {
+  font-size: 44px;
+  margin: 0;
+
+}
+
+.card-button {
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+.card-img {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 10px ;
+  background-color: #ece4e4;
+}
+
+@media (min-width: 1200px) {
+  .card {
+      flex-direction: row;
+  }
+
+  .card-content {
+      margin-left: 10px;
+  }
+
+  .card-img {
+   
+      width: 300px;
+
+      height: 400px;
+    
+  }
+}
+
+
+
+  .image-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .h11{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #FF7A00;
+    }
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      margin: 20px;
+    }
+
+
+/* Footer container */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Logo */
+.logo h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.logo h1 span {
+  color: #ff0000;
+}
+
+/* Footer menu */
+.footer-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-menu li a {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer-menu li a:hover {
+  color: #ff0000;
+}
+
+/* Social icons */
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-social li a {
+  color: #666;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-social li a:hover {
+  color: #ff0000;
+}
