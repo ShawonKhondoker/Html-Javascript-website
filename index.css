@@ -336,19 +336,29 @@ background-color: #000000;
 
 
 /* Footer container */
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#FF7A00;
+}
 .container {
+ 
   max-width: 960px;
   margin: 0 auto;
   padding: 20px;
+  
 }
 
 /* Logo */
 .logo h1 {
+  
   font-size: 24px;
   color: #333;
 }
 
 .logo h1 span {
+  
   color: #ff0000;
 }
 
@@ -361,6 +371,7 @@ background-color: #000000;
 .footer-menu li {
   display: inline-block;
   margin-right: 20px;
+  
 }
 
 .footer-menu li a {
@@ -374,6 +385,7 @@ background-color: #000000;
 
 /* Social icons */
 .footer-social ul {
+  justify-items: center;
   list-style: none;
   padding: 0;
 }
